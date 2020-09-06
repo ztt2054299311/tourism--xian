@@ -1,0 +1,46 @@
+
+.uni-comment-list {
+	/*    background:rgba(0,0,0,0.1);
+    padding:0 10upx; */
+}
+.uni-comment{
+	position: relative;
+	width: 720rpx;
+	margin: 16rpx auto;
+	padding-bottom: 20rpx;
+	border-radius: 10%;
+	background: rgb(238, 245, 255);
+	overflow: hidden;
+}
+.uni-comment-user {
+	height: 90rpx;
+	margin: 10rpx 20rpx;
+}
+.uni-comment-user image {
+	float: left;
+	width: 90rpx;
+	height:90rpx;
+	border-radius: 50%;
+}
+.uni-comment-user view{
+	float: left;
+	height: 40rpx;
+	color: #043941;
+	font-size: 28rpx;
+	margin: 20rpx;
+}
+.uni-comment-content {
+	margin-bottom: 30rpx;
+}
+.uni-comment-body {
+	width: 100%;
+	margin: 20rpx;
+}
+.uni-comment-date{
+	position: absolute;
+	color: #b4af11;
+	font-size: 20rpx;
+	bottom: 20rpx;
+	right: 20rpx;
+}
+

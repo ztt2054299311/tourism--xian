@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "西安旅游",
+  "usingComponents": {
+    "search": "/pages/index/search",
+    "ticket": "/pages/index/ticket",
+    "content": "/pages/index/content",
+    "scenic": "/pages/index/scenic"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/search/search",
+    "pages/details/searchList",
+    "pages/ratings/ratings",
+    "pages/strategy/strategy",
+    "pages/details/goodMap",
+    "pages/order/confirmation",
+    "pages/user/order_list/order_list",
+    "pages/pay/payment/payment",
+    "pages/pay/payment/paymentPassword",
+    "pages/pay/success/success",
+    "pages/user/deposit/deposit",
+    "pages/user/keep/keep",
+    "pages/user/cart/cart",
+    "pages/user/user/user",
+    "pages/user/setting/setting",
+    "pages/user/setting/userInformation/face",
+    "pages/user/setting/userInformation/nickName",
+    "pages/user/setting/userInformation/accountSecurity",
+    "pages/user/setting/userInformation/paymentPassword",
+    "pages/login/login",
+    "pages/reg/reg",
+    "pages/pwd/pwd",
+    "pages/ratings/ratings",
+    "pages/details/goods"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "西安旅游",
+    "navigationBarBackgroundColor": "#ffd300",
+    "backgroundColor": "#ffd300"
+  },
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#f76e15",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tab/shouye.png",
+        "selectedIconPath": "static/tab/shouye1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/strategy/strategy",
+        "iconPath": "static/tab/gonglue.png",
+        "selectedIconPath": "static/tab/gonglue1.png",
+        "text": "攻略"
+      },
+      {
+        "pagePath": "pages/user/user/user",
+        "text": "我的",
+        "iconPath": "static/tab/wode.png",
+        "selectedIconPath": "static/tab/wode1.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

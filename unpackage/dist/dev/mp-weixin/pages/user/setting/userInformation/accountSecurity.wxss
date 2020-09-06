@@ -1,0 +1,39 @@
+
+.payPassword{
+	width: 100%;
+	height: 500rpx;
+	margin: 0 auto;
+	margin-top: 200rpx;
+	position: relative;
+}
+/* .password{
+	width: 60%;
+	height: 100upx;
+	background-color: #345390;
+} */
+/* .password1{
+	width: 60%;
+	height: 100upx;
+	background-color: #007AFF;
+}
+.password input,
+.password1 input{
+	width: 60%;
+	height: 100upx;
+	font-size: 48upx;
+	background-color: #eaeaea;
+	position: absolute;
+	left: 50%;
+	top:20%;
+	transform: translate(-50%,-50%);
+} */
+.payButton{
+	width: 280rpx;
+	height: 50rpx;
+	position: absolute;
+	left: 50%;
+	top:50%;
+	-webkit-transform: translate(-50%,-50%);
+	        transform: translate(-50%,-50%);
+}
+

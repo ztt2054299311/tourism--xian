@@ -1,0 +1,162 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页,
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "西安旅游"
+			}
+		},  {
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "搜索"
+			}
+		}, {
+			"path": "pages/details/searchList",
+			"style": {
+				"navigationBarTitleText": "搜索列表"
+			}
+		}, {
+			"path": "pages/ratings/ratings",
+			"style": {
+				"navigationBarTitleText": "景点评论"
+			}
+		}, {
+			"path": "pages/strategy/strategy",
+			"style": {
+				"navigationBarTitleText": "攻略"
+			}
+		}, {
+			"path": "pages/details/goodMap",
+			"style": {
+				"navigationBarTitleText": "景点定位"
+			}
+		}, {
+			"path": "pages/order/confirmation",
+			"style": {
+				"navigationBarTitleText": "订单"
+			}
+		}, {
+			"path": "pages/user/order_list/order_list",
+			"style": {
+				"navigationBarTitleText": "我的订单",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/pay/payment/payment",
+			"style": {
+				"navigationBarTitleText": "订单支付"
+			}
+		}, {
+			"path": "pages/pay/payment/paymentPassword",
+			"style": {
+				"navigationBarTitleText": "支付密码"
+			}
+		}, {
+			"path": "pages/pay/success/success",
+			"style": {
+				"navigationBarTitleText": "支付成功"
+			}
+		},{
+			"path": "pages/user/deposit/deposit",
+			"style": {
+				"navigationBarTitleText": "充值"
+			}
+		}, {
+			"path": "pages/user/keep/keep",
+			"style": {
+				"navigationBarTitleText": "收藏"
+			}
+		}, {
+			"path": "pages/user/cart/cart",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+		}, {
+			"path": "pages/user/user/user",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}, {
+			"path": "pages/user/setting/setting",
+			"style": {
+				"navigationBarTitleText": "个人信息"
+			}
+		}, {
+			"path": "pages/user/setting/userInformation/face",
+			"style": {
+				"navigationBarTitleText": "上传头像"
+			}
+		}, {
+			"path": "pages/user/setting/userInformation/nickName",
+			"style": {
+				"navigationBarTitleText": "修改昵称"
+			}
+		}, {
+			"path": "pages/user/setting/userInformation/accountSecurity",
+			"style": {
+				"navigationBarTitleText": "账号安全"
+			}
+		}, {
+			"path": "pages/user/setting/userInformation/paymentPassword",
+			"style": {
+				"navigationBarTitleText": "支付设置"
+			}
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		}, {
+			"path": "pages/reg/reg",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		}, {
+			"path": "pages/pwd/pwd",
+			"style": {
+				"navigationBarTitleText": "找回密码"
+			}
+		}, {
+			"path": "pages/ratings/ratings",
+			"style": {
+				"navigationBarTitleText": "购买后评论"
+			}
+		}, {
+			"path": "pages/details/goods",
+			"style": {
+				"navigationBarTitleText": "景点详情"
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#333333",
+		"selectedColor": "#f76e15",
+		"borderStyle": "black",
+		"backgroundColor": "#FFFFFF",
+		"list": [ {
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tab/shouye.png",
+				"selectedIconPath": "static/tab/shouye1.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/strategy/strategy",
+				"iconPath": "static/tab/gonglue.png",
+				"selectedIconPath": "static/tab/gonglue1.png",
+				"text": "攻略"
+			},
+			{
+				"pagePath": "pages/user/user/user",
+				"text": "我的",
+				"iconPath": "static/tab/wode.png",
+				"selectedIconPath": "static/tab/wode1.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "西安旅游",
+		"navigationBarBackgroundColor": "#ffd300",
+		"backgroundColor": "#ffd300"
+	}
+}
